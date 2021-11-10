@@ -15,6 +15,8 @@
 
 body {
   font-family: Roboto, sans-serif;
+  color: var(--second-text-color);
+  background-color: #ffffff;
 }
 
 .list {
@@ -42,8 +44,8 @@ body {
 .header-logo {
   font-family: Raleway;
   font-weight: 700;
-  font-size: 1.19;
-  line-height: 31px;
+  font-size: 26px;
+  line-height: 1.19;
   color: var(--accent-color);
 }
 
@@ -74,6 +76,10 @@ body {
 
 /*-----------------------------hero-------------------*/
 
+.hero {
+  background-color: var(--first-background-color);
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -82,7 +88,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
-  background-color: var(--first-background-color);
 }
 
 .hero-btn {
@@ -99,6 +104,7 @@ body {
 
 .button:hover,
 .button:focus {
+  cursor: pointer;
   color: var(--first-button-color);
   background-color: var(--accent-color);
 }
@@ -163,6 +169,8 @@ body {
 /*------------------------------projects-----------------------*/
 
 .filter-btn {
+  font-family: inherit;
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -170,6 +178,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-button-color);
   background-color: var(--second-background-color);
+
+  border: 0;
+  border-radius: 4px;
 }
 
 .project-item {
