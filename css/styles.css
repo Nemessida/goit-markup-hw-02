@@ -1,22 +1,18 @@
 :root {
-  --main-title-color: #ffff;
-  --second-title-color: #212121;
-  --first-text-color: #212121;
-  --second-text-color: #757575;
-  --third-text-color: #ffff;
-  --first-button-color: #ffff;
-  --second-button-color: #212121;
-  --first-header-color: #212121;
-  --second-header-color: #757575;
+  --current-text-color: #757575;
+  --current-title-color: #212121;
+  --current-white-color: #ffffff;
+  --current-black-color: #000000;
   --accent-color: #2196f3;
-  --first-background-color: #2f303a;
-  --second-background-color: #f5f4fa;
+  --first-bg-color: #2f303a;
+  --second-bg-color: #f5f4fa;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   font-family: Roboto, sans-serif;
-  color: var(--second-text-color);
-  background-color: #ffffff;
+  color: var(--current-text-color);
+  background-color: var(--current-white-color);
 }
 
 .list {
@@ -50,7 +46,7 @@ body {
 }
 
 .header-logo-half {
-  color: #000000;
+  color: var(--current-black-color);
 }
 
 .header-link {
@@ -58,7 +54,7 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--first-header-color);
+  color: var(--current-title-color);
 }
 
 .accent:hover,
@@ -71,13 +67,13 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--second-header-color);
+  color: var(--current-text-color);
 }
 
 /*-----------------------------hero-------------------*/
 
 .hero {
-  background-color: var(--first-background-color);
+  background-color: var(--first-bg-color);
 }
 
 .hero-title {
@@ -87,7 +83,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-title-color);
+  color: var(--current-white-color);
 }
 
 .hero-btn {
@@ -98,14 +94,13 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--second-button-color);
-  background-color: var(--accent-color);
+  color: var(--current-title-color);
 }
 
 .button:hover,
 .button:focus {
   cursor: pointer;
-  color: var(--first-button-color);
+  color: var(--current-white-color);
   background-color: var(--accent-color);
 }
 
@@ -117,14 +112,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-title-color);
+  color: var(--current-title-color);
 }
 
 .features-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--current-text-color);
 }
 
 /*------------------------------about-----------------------*/
@@ -135,7 +130,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  color: var(--current-title-color);
 }
 
 /*------------------------------team-----------------------*/
@@ -146,7 +141,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  color: var(--current-title-color);
 }
 
 .team-name {
@@ -155,7 +150,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  color: var(--current-title-color);
 }
 
 .team-position {
@@ -163,7 +158,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--current-text-color);
 }
 
 /*------------------------------projects-----------------------*/
@@ -176,33 +171,32 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-button-color);
-  background-color: var(--second-background-color);
+  color: var(--current-title-color);
+  background-color: var(--second-bg-color);
 
   border: 0;
   border-radius: 4px;
 }
 
-.project-item {
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--first-text-color);
+  color: var(--current-title-color);
 }
 
 .project-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--current-text-color);
 }
 
 /*------------------------------footer-----------------------*/
 
 .footer {
-  background-color: var(--first-background-color);
+  background-color: var(--first-bg-color);
 }
 
 .footer-logo {
@@ -215,19 +209,20 @@ body {
 }
 
 .footer-logo-half {
-  color: #ffffff;
+  color: var(--current-white-color);
 }
 
 .footer-address-text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--third-text-color);
+  color: var(--current-white-color);
 }
 
 .footer-item-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-color);
 }
