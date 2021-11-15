@@ -11,6 +11,7 @@
 
 body {
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
   color: var(--current-text-color);
   background-color: var(--current-white-color);
 }
@@ -113,7 +114,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--current-title-color);
 }
@@ -121,7 +121,6 @@ body {
 .features-text {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--current-text-color);
 }
 
@@ -132,7 +131,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--current-title-color);
 }
 
@@ -143,7 +141,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--current-title-color);
 }
 
@@ -152,7 +149,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--current-title-color);
 }
 
@@ -160,7 +156,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--current-text-color);
 }
 
@@ -173,7 +168,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--current-title-color);
   background-color: var(--second-bg-color);
 
@@ -192,7 +186,6 @@ body {
 .project-text {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--current-text-color);
 }
 
@@ -207,7 +200,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
@@ -216,16 +208,13 @@ body {
 }
 
 .footer-address-text {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--current-white-color);
 }
 
 .footer-item-link {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
